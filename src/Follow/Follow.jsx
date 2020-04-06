@@ -11,23 +11,6 @@ const Follow = () => {
         <header className={styles.header}>
             Follow Me!
         </header>
-            <div className={styles.bar}>
-                <span>
-                    <Link to="/">Home</Link>
-                </span>
-                <span>
-                    <Link to="/blogs/Btitle">Blogs</Link>
-                </span>
-                <span>
-                    <Link to="/tags">Tags</Link>
-                </span>
-                <span>
-                    <Link to="/about">About Me</Link>
-                </span>
-                <span className={styles.currentpage}>
-                    <Link to="/follow">Follow Me</Link>
-                </span>
-            </div>
             <div className={styles.div}>
                 <form>
                     <section className={styles.section}>

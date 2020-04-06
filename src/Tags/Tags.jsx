@@ -11,23 +11,6 @@ const Tags = () => {
     return (
         <div className={styles.bgc}>
             <header className={styles.header}>Tags</header>
-            <div className={styles.bar}>
-                <span>
-                    <Link to="/">Home</Link>
-                </span>
-                <span>
-                    <Link to="/blogs/Btitle">Blogs</Link>
-                </span>
-                <span className={styles.currentpage}>
-                    <Link to="/tags">Tags</Link>
-                </span>
-                <span>
-                    <Link to="/about">About Me</Link>
-                </span>
-                <span>
-                    <Link to="/follow">Follow Me</Link>
-                </span>
-            </div>
             <nav>
                 <section className={styles.flexContainer}>
                     <div className={styles.div}>

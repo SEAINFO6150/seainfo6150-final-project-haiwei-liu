@@ -12,13 +12,14 @@ import ChineseFood from "./TagDetails/ChineseFood";
 import Travel from "./TagDetails/Travel";
 import Fruit from "./TagDetails/Fruit";
 import Relax from "./TagDetails/Realx";
+import Nav from "./Navbar/Nav";
 
 
 function App() {
   return (
-    <div>
-        <header>Haiwei's Blog</header>
     <Router>
+
+        <Nav />
         <Switch>
             <Route path="/" exact component={Home}></Route>
             <Route path="/about" exact component={About}></Route>
@@ -40,7 +41,6 @@ function App() {
             <Route component={Error}></Route>
         </Switch>
     </Router>
-    </div>
   );
 }
 

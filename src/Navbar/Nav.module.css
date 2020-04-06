@@ -1,0 +1,16 @@
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.header{
+    font-weight: bolder;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+span{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}

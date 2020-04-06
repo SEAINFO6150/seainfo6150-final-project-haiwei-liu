@@ -6,23 +6,6 @@ const About = () => {
     return (
         <div className={styles.bgc}>
             <header className={styles.header}>About Me</header>
-            <div className={styles.bar}>
-                <span>
-                    <Link to="/">Home</Link>
-                </span>
-                <span>
-                    <Link to="/blogs/Btitle">Blogs</Link>
-                </span>
-                <span>
-                    <Link to="/tags">Tags</Link>
-                </span>
-                <span className={styles.currentpage}>
-                    <Link to="/about">About Me</Link>
-                </span>
-                <span>
-                    <Link to="/follow">Follow Me</Link>
-                </span>
-            </div>
             <nav>
                 <div className={styles.gridContainer}>
                     <div className={styles.gridItem}>Name: Haiwei Liu</div>

@@ -13,23 +13,6 @@
     color: black;
 }
 
-.bar{
-    text-align: center;
-    margin: 20px;
-}
-span{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-.currentpage{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-    background-color: lightgrey;
-}
-
 .label{
     text-align: center;
     font-size: 20px;
