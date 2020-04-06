@@ -1,0 +1,67 @@
+.header{
+    background-color: lightyellow;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: orangered;
+}
+
+.div{
+    margin: 100px 400px;
+    background-color: lightcyan;
+    text-align: left;
+}
+
+.section{
+    margin: 20px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.checkbox{
+    margin: 20px;
+    padding: 10px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.dropdown{
+    margin: 20px;
+    padding: 10px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.button{
+    background-color: red;
+    color: snow;
+    text-align: center;
+    border-radius: 12px;
+    width: 15%;
+    margin: 20px;
+}
+
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.currentpage{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.bgc{
+    background-color: snow;
+}
+
+@media (max-width: 700px) {
+    .header{
+        color: black;
+        background-color: azure;
+        font-size: 18px;
+    }
+}
