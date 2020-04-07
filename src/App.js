@@ -15,6 +15,16 @@ import Relax from "./TagDetails/Realx";
 import Nav from "./Navbar/Nav";
 
 
+const externalContent = {
+    title: "#This is my Blog#",
+    author: "Haiwei Liu",
+    date: "4/6/2020",
+    text: "Some students study for the examination. " +
+        "The student is thinking to himself, “How will I repeat this back when I am asked a certain question?” " +
+        "or “How will I pass the examination?” That is complete folly, " +
+        "but unfortunately is what many students have done in a university.\n"
+};
+
 function App() {
   return (
     <Router>
@@ -30,13 +40,10 @@ function App() {
             <Route path="/tags/travel" exact component={Travel}></Route>
             <Route path="/tags/fruit" exact component={Fruit}></Route>
             <Route path="/tags/relax" exact component={Relax}></Route>
-            <Route path="/blogs/:Btitle"
+            <Route
+                path="/blogs"
                    exact
-                   render={({ match }) =>(
-                       <Blogs
-                           Btitle={match.params.Btitle}
-                       />
-                   )}>
+                   render={() => <Blogs content={externalContent}/>}>
             </Route>
             <Route component={Error}></Route>
         </Switch>

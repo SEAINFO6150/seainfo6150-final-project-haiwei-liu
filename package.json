@@ -15,7 +15,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-validator-ease": "0.0.9",
-    "schema-typed": "^1.5.0"
+    "schema-typed": "^1.5.0",
+    "prop-types": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
