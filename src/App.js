@@ -13,16 +13,18 @@ import Travel from "./TagDetails/Travel";
 import Fruit from "./TagDetails/Fruit";
 import Relax from "./TagDetails/Realx";
 import Nav from "./Navbar/Nav";
+import java from "./BlogDetails/java";
+import dumplings from "./BlogDetails/dumplings";
+import newyork from "./BlogDetails/newyork";
 
 
 const externalContent = {
-    title: "#This is my Blog#",
+    title: "#This is my Blog List#",
     author: "Haiwei Liu",
     date: "4/6/2020",
-    text: "Some students study for the examination. " +
-        "The student is thinking to himself, “How will I repeat this back when I am asked a certain question?” " +
-        "or “How will I pass the examination?” That is complete folly, " +
-        "but unfortunately is what many students have done in a university.\n"
+    text: "Hope you like it!",
+    img1: "https://myareanetwork-photos.s3.amazonaws.com/editorphotos/f/28325_1528484049.jpg",
+    img2: "https://pmimaui.com/wp-content/uploads/2018/01/GettyImages-625006074-e1515708812857-1500x609.jpg"
 };
 
 function App() {
@@ -40,6 +42,9 @@ function App() {
             <Route path="/tags/travel" exact component={Travel}></Route>
             <Route path="/tags/fruit" exact component={Fruit}></Route>
             <Route path="/tags/relax" exact component={Relax}></Route>
+            <Route path="/blogs/java" exact component={java}></Route>
+            <Route path="/blogs/dumplings" exact component={dumplings}></Route>
+            <Route path="/blogs/newyork" exact component={newyork}></Route>
             <Route
                 path="/blogs"
                    exact
