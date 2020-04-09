@@ -8,7 +8,7 @@ import Tags from "./Tags/Tags";
 import Follow from "./Follow/Follow";
 import Blogs from "./Blogs/Blogs";
 import StudyTag from "./TagDetails/StudyTag";
-import ChineseFood from "./TagDetails/ChineseFood";
+import Coffee from "./TagDetails/Coffee";
 import Travel from "./TagDetails/Travel";
 import Fruit from "./TagDetails/Fruit";
 import Relax from "./TagDetails/Realx";
@@ -38,7 +38,7 @@ function App() {
             <Route path="/tags" exact component={Tags}></Route>
             <Route path="/follow" exact component={Follow}></Route>
             <Route path="/tags/study" exact component={StudyTag}></Route>
-            <Route path="/tags/chinesefood" exact component={ChineseFood}></Route>
+            <Route path="/tags/coffee" exact component={Coffee}></Route>
             <Route path="/tags/travel" exact component={Travel}></Route>
             <Route path="/tags/fruit" exact component={Fruit}></Route>
             <Route path="/tags/relax" exact component={Relax}></Route>

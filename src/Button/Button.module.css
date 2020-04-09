@@ -1,9 +1,15 @@
 Button{
-    background-color: lightblue;
+    background-color: white;
     border-radius: 8px;
     color: black;
+    border: 2px solid orange;
     text-align: center;
     display: inline-block;
     font-size: 24px;
     width: 90%;
+}
+
+Button:hover {
+    background-color: cornflowerblue;
+    color: white;
 }

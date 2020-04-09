@@ -1,0 +1,29 @@
+.section{
+    margin: 20px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.checkbox{
+    margin: 20px;
+    padding: 10px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.dropdown{
+    margin: 20px;
+    padding: 10px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.button{
+    background-color: red;
+    color: snow;
+    text-align: center;
+    border-radius: 12px;
+    width: 200px;
+    margin: 20px;
+}

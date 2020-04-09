@@ -1,11 +1,10 @@
 import React from "react";
 import styles from './Tags.module.css';
 import StudyButton from "../Button/StudyButton";
-import ChineseFoodButton from "../Button/ChineseFoodButton";
 import Travel from "../Button/Travel";
 import Fruit from "../Button/Fruit";
 import Relax from "../Button/Relax";
-import {Link} from "react-router-dom";
+import Coffee from "../Button/Coffee";
 
 const Tags = () => {
     return (
@@ -18,8 +17,8 @@ const Tags = () => {
                         <img className={styles.img} src="/img/tags1.jpeg" alt="study"/>
                     </div>
                     <div className={styles.div}>
-                        <ChineseFoodButton/>
-                        <img className={styles.img} src="/img/tags2.jpeg" alt="chinese food"/>
+                        <Coffee />
+                        <img className={styles.img} src="/img/coffee.jpeg" alt="coffee"/>
                     </div>
                     <div className={styles.div}>
                         <Travel/>
