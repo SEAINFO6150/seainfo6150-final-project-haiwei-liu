@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import styles from './Form.module.css';
 import "react-form-next/index.css";
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 export default class Form extends Component {
     constructor(props) {
@@ -54,9 +52,12 @@ export default class Form extends Component {
                 <div className={styles.checkbox}>
                     <label>
                         Please choose your gender:
-                        <FormControlLabel control={<Checkbox name="Female" />} label="Female" />
-                        <FormControlLabel control={<Checkbox name="Male" />} label="Male" />
-                        <FormControlLabel control={<Checkbox name="None" />} label="None" />
+                        <input type="checkbox" id="female" />
+                        <label for="female">Female</label>
+                        <input type="checkbox" id="male"/>
+                        <label for="male">Male</label>
+                        <input type="checkbox" id="none"/>
+                        <label for="none">None</label>
                     </label>
                 </div>
 
